@@ -441,7 +441,7 @@
             "[+1 Food] from every [Farm] <with [3] to [6] neighboring [Farm] tiles>",
             "[+1 Gold] from every [Farm] <with [4] to [6] neighboring [Farm] tiles>",
             "[+1 Production] from every [Farm] <with [5] to [6] neighboring [Farm] tiles>",
-            "[+1 Culture, +1 Science] from every [Farm] <with [6] to [6] neighboring [Farm] tiles>"
+            "[+1 Culture, +1 Culture] from every [Farm] <with [6] to [6] neighboring [Farm] tiles>"
         ],
         "cities": [ //Tweebuffelsmeteenskootmorsdoodgeskietfontein
             "Pretoria","Bloemfontein","Johannesburg","Pietermaritzburg","Klerksdorp","Pietersburg","Potchefstroom","Vryburg","Winburg","Bloemhof",
@@ -538,7 +538,7 @@
         "innerColor": [242, 251, 245],
         "uniqueName": "Cyrillic Script",
         "uniques": [
-            "[+5 Science] from every [Writer]",
+            "[+5 Culture] from every [Writer]",
             "[+1 Culture] from every [Library]",
             "[+1 Culture] from every [University]",
             "[+1 Culture] from every [Observatory]",
@@ -1049,10 +1049,10 @@
         "innerColor": [60,60,60],
         "uniqueName": "Precision Engineering",
         "uniques": [
-            "[+1 Science, +1 Production] from every [Windmill]",
-            "[+1 Science, +1 Production] from every [Workshop]",
-            "[+1 Science, +1 Production] from every [Factory]",
-            "[+1 Science, +1 Production] from every [Hydro Plant]",
+            "[+1 Culture, +1 Production] from every [Windmill]",
+            "[+1 Culture, +1 Production] from every [Workshop]",
+            "[+1 Culture, +1 Production] from every [Factory]",
+            "[+1 Culture, +1 Production] from every [Hydro Plant]",
             "[Great Engineer] is earned [33]% faster"
         ],
         "cities": [
@@ -1088,7 +1088,7 @@
         "uniques": [
             "[+50]% [Production] [in puppeted cities]",
             "[+50]% [Gold] [in puppeted cities]",
-            "[+50]% [Science] [in puppeted cities]",
+            "[+50]% [Culture] [in puppeted cities]",
             "[-33]% Unhappiness from [Population] [in puppeted cities]"
         ],
         "cities": [
@@ -1680,9 +1680,9 @@
         "innerColor": [255,0,0],
         "uniqueName": "Scholars of the Jade Hall",
         "uniques": [
-            "[+1 Science] from every specialist [in all cities]",
-            "[+1 Science] [in capital]",
-            "[+2 Science] from every [Great Improvement]"
+            "[+1 Culture] from every specialist [in all cities]",
+            "[+1 Culture] [in capital]",
+            "[+2 Culture] from every [Great Improvement]"
         ],
         "cities": [
             "Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
@@ -2632,9 +2632,9 @@
         "innerColor": [201,214,217],
         "uniqueName": "Flower of Scotland",
         "uniques": [
-            "[+2 Culture, +2 Science, +2 Production] from every [Writer Guild]",
-            "[+2 Culture, +2 Science, +2 Production] from every [Artist Guild]",
-            "[+2 Culture, +2 Science, +2 Production] from every [Musician Guild]",
+            "[+2 Culture, +2 Culture, +2 Production] from every [Writer Guild]",
+            "[+2 Culture, +2 Culture, +2 Production] from every [Artist Guild]",
+            "[+2 Culture, +2 Culture, +2 Production] from every [Musician Guild]",
             "[+33]% Great Person generation [in capital]"
         ],
         "cities": [
@@ -2881,7 +2881,7 @@
         "innerColor": [195,49,73],
         "uniqueName": "Swiss Banking",
         "uniques": [
-            "[+2 Science, +2 Production] from every [Merchant]"
+            "[+2 Culture, +2 Production] from every [Merchant]"
         ],
         "cities": [
             "Bern","Zurich","Geneve","Basel","Lausanne","Winterthur","Sankt Gallen","Lugano","Luzern","Koniz","Biel",
@@ -2910,14 +2910,14 @@
         "innerColor": [198,217,226],
         "uniqueName": "Eightfold Path to Nirvana",
         "uniques": [
-            "[+2 Faith, +2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] [in capital] <after discovering [Drama and Poetry]>",
-            "Comment [[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] [in capital] [for every era after [Classical era]]]",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Medieval era]> <hidden from users>",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Renaissance era]> <hidden from users>",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Industrial era]> <hidden from users>",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Modern era]> <hidden from users>",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Atomic era]> <hidden from users>",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Information era]> <hidden from users>"
+            "[+2 Faith, +2 Food, +2 Culture, +2 Production, +2 Culture, +2 Gold] [in capital] <after discovering [Drama and Poetry]>",
+            "Comment [[+1 Food, +1 Culture, +1 Production, +1 Culture, +1 Gold, +1 Faith] [in capital] [for every era after [Classical era]]]",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Culture, +1 Gold] [in capital] <starting from the [Medieval era]> <hidden from users>",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Culture, +1 Gold] [in capital] <starting from the [Renaissance era]> <hidden from users>",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Culture, +1 Gold] [in capital] <starting from the [Industrial era]> <hidden from users>",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Culture, +1 Gold] [in capital] <starting from the [Modern era]> <hidden from users>",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Culture, +1 Gold] [in capital] <starting from the [Atomic era]> <hidden from users>",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Culture, +1 Gold] [in capital] <starting from the [Information era]> <hidden from users>"
         ],
         "cities": [
             "Lhasa","Xigaze","Qamdo","Nagqu","Lhoka","Nyingchi","Ngari","Chengguan","Doilungdeqen","Lhunzhub",
@@ -3004,11 +3004,14 @@
         "innerColor": [191,25,39],
         "uniqueName": "Westernization",
         "uniques": [
-            "[+1 Production, +1 Science] from every [Amphitheater]",
-            "[+1 Production, +1 Science] from every [Museum]",
-            "[+1 Production, +1 Science] from every [Opera House]",
-            "[+1 Production, +1 Science] from every [Broadcast Tower]",
-            "[+1 Production, +1 Science] from every [Great Work]",
+            "No damage penalty for wounded units <for [All] units>",
+            "[+1 Science, +1 Faith] from every [Fishing Boats]",
+            "[+1 Production] from every [Atoll]",
+            "[+1 Production, +1 Culture] from every [Amphitheater]",
+            "[+1 Production, +1 Culture] from every [Museum]",
+            "[+1 Production, +1 Culture] from every [Opera House]",
+            "[+1 Production, +1 Culture] from every [Arsenal]",
+            "[+1 Production, +1 Culture] from every [Great Work]",
             "[+50]% Production when constructing [Amphitheater] buildings [in all cities]",
             "[+50]% Production when constructing [Opera House] buildings [in all cities]",
             "[+50]% Production when constructing [Museum] buildings [in all cities]",
@@ -3166,10 +3169,10 @@
             "Free Social Policy <upon adopting [Ideology]>",
             
             "[+1 Gold] from every specialist [in all cities] <after adopting [Autocracy]>",
-            "[+2 Production, +2 Science] [in all cities] <after adopting [Autocracy]>",
+            "[+2 Production, +2 Culture] [in all cities] <after adopting [Autocracy]>",
 
             "[+15]% Production when constructing [Land] units [in all cities] <after adopting [Freedom]>",
-            "[+2 Production, +2 Science] [in all cities] <after adopting [Freedom]>",
+            "[+2 Production, +2 Culture] [in all cities] <after adopting [Freedom]>",
 
             "[+15]% Production when constructing [Land] units [in all cities] <after adopting [Order]>",
             "[+1 Gold] from every specialist [in all cities] <after adopting [Order]>"

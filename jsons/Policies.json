@@ -319,7 +319,7 @@
                 "uniques": [
                     "[+1 Culture, +1 Faith] [in all cities]",
                     "[+25]% [Science] from every [Grand Temple]",
-                    "[+2 Science] from every [Temple]",
+                    "[+1 Culture] from every [Temple]",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Organized Religion"],
@@ -388,8 +388,8 @@
                     "[+1 Science] from every [Amphitheater]",
                     "[+1 Science] from every [Opera House]",
                     "[+1 Science] from every [Broadcast Tower]",
-                    "[+3 Science] from every [Great Work]",
-                    "[+2 Science] from every [Landmark]",
+                    "[+3 Gold] from every [Great Work]",
+                    "[+2 Gold] from every [Landmark]",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Cultural Centers"],
@@ -767,7 +767,7 @@
             {
                 "name": "Socialist Realism",
                 "uniques": [
-                    "[+2 Happiness] from every [Monument]",
+                    "[+2 Happiness, +1 Culture] from every [Monument]",
                     "[+100]% Production when constructing [Monument] buildings [in all cities]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
@@ -800,11 +800,11 @@
             {
                 "name": "Young Pioneers",
                 "uniques": [
-                    "[+1 Happiness] from every [Workshop]",
-                    "[+1 Happiness] from every [Factory]",
-                    "[+1 Happiness] from every [Solar Plant]",
-                    "[+1 Happiness] from every [Nuclear Plant]",
-                    "[+1 Happiness] from every [Hydro Plant]",
+                    "[+1 Happiness, +2 Culture] from every [Workshop]",
+                    "[+1 Happiness, +1 Culture] from every [Factory]",
+                    "[+1 Happiness, +1 Culture] from every [Solar Plant]",
+                    "[+1 Happiness, +1 Culture] from every [Nuclear Plant]",
+                    "[+1 Happiness, +1 Culture] from every [Hydro Plant]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -814,7 +814,7 @@
             {
                 "name": "Party Leadership",
                 "uniques": [
-                    "[+2 Food, +2 Gold, +1 Production, +1 Science] [in all cities]",
+                    "[+2 Food, +4 Gold, +2 Production, +1 Culture] [in all cities]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -851,9 +851,9 @@
             {
                 "name": "Academy of Sciences",
                 "uniques": [
-                    "[+1 Happiness] from every [Observatory]",
-                    "[+1 Happiness] from every [Public School]",
-                    "[+1 Happiness] from every [Research Lab]",
+                    "[+1 Happiness,+2 Gold] from every [Observatory]",
+                    "[+1 Happiness,+4 Gold] from every [Public School]",
+                    "[+1 Happiness,+3 Gold] from every [Research Lab]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -865,7 +865,7 @@
             {
                 "name": "Cultural Revolution",
                 "uniques": [
-                    "[+10]% [Culture] [in all cities] <while the empire is happy>",
+                    "[+15]% [Culture] [in all cities] <while the empire is happy>",
                     "Empire enters golden age",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
@@ -907,8 +907,8 @@
                 "uniques": [
                     "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
-                    "[+2 Science, +2 Culture] from every [Military Academy]",
-                    "[+2 Science, +2 Culture] from every [Armory]",
+                    "[+2 Production, +2 Culture] from every [Military Academy]",
+                    "[+2 Production, +2 Culture] from every [Armory]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -935,6 +935,9 @@
                     "[+11 Food] from every [Land Trade Route (Food)]",
                     "[+11 Food] from every [Sea Trade Route (Food)]",
                     "[+11 Production] from every [Sea Trade Route (Production)]",
+                    "[+6 Production] from every [Sea Trade Route (Gold)]",
+                    "[+4 Food] from every [Sea Trade Route (Gold)]",
+                    "[+10 Gold] from every [Land Trade Route (Gold)]",
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
@@ -945,7 +948,7 @@
             {
                 "name": "Spaceflight Pioneers",
                 "uniques": [
-                    "Free [Great Scientist] appears",
+                    "Free [Great Engineer] appears",
                     "Free [Great Engineer] appears",
                     //need implement "Spaceflight Pioneers: May finish Spaceship parts with Great Engineers"
                     "Provides [-1] [Level 2 Ideology]",
