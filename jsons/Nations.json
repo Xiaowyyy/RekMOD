@@ -927,7 +927,8 @@
         "innerColor": [0, 53, 128],
         "uniqueName": "Finnish Mobility",
         "uniques": [
-            "[+1 Food] from every [Snow]",
+            "No damage penalty for wounded units <for [All] units>",
+            "[+2 Food] from every [Snow]",
             "[+1 Culture] from every [Forest] <in tiles without [Improvement]>",
             "[+50]% to Flank Attack bonuses"
         ],
@@ -1533,7 +1534,8 @@
         "uniques": [
             "No damage penalty for wounded units <for [All] units>",
             "[+1 Culture] from every [Fishing Boats]",
-            "[+2 Culture] from every [Atoll]"
+            "[+1 Production, +1 Culture] from every [Atoll]",
+            "[+10]% Strength <in [Plain] tiles>"
         ],
         "cities": [
             "Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
@@ -3008,8 +3010,8 @@
         "uniqueName": "Westernization",
         "uniques": [
             "No damage penalty for wounded units <for [All] units>",
-            "[+1 Science, +1 Faith] from every [Fishing Boats]",
-            "[+1 Production] from every [Atoll]",
+            "[+1 Science] from every [Fishing Boats]",
+            "[+1 Gold] from every [Atoll]",
             "[+1 Production, +1 Culture] from every [Amphitheater]",
             "[+1 Production, +1 Culture] from every [Museum]",
             "[+1 Production, +1 Culture] from every [Opera House]",
