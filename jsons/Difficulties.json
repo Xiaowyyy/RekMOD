@@ -136,7 +136,7 @@
         "aiDifficultyLevel": "AI",
         "aiCityGrowthModifier": 1,
         "aiUnitCostModifier": 0.90,
-        "aiBuildingCostModifier": 0.85,
+        "aiBuildingCostModifier": 0.9,
         "aiWonderCostModifier": 1,
         "aiBuildingMaintenanceModifier": 0.9,
         "aiUnitMaintenanceModifier": 0.8,
